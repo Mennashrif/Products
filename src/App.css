@@ -1,7 +1,37 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@400;700&display=swap");
 .App {
   text-align: center;
 }
 
+.openModalBtn {
+  width: 90%;
+  height: 40px;
+  margin-top: 40px;
+  margin-left: 10px;
+  border: none;
+  display: flex-auto;
+  text-align: center;
+  font-family: "Nunito", sans-serif;
+  border-radius: 13px;
+  background-color: rgb(240, 117, 117);
+  color: white;
+  cursor: pointer;
+}
+
+.changeProductBtn{
+  width: 150px;
+  height: 40px;
+  margin-top: 60px;
+  margin-left: 70px;
+  border: none;
+  display: flex-auto;
+  text-align: center;
+  font-family: "Nunito", sans-serif;
+  border-radius: 13px;
+  background-color: rgb(240, 117, 117);
+  color: white;
+  cursor: pointer;
+}
 .App-logo {
   height: 40vmin;
   pointer-events: none;

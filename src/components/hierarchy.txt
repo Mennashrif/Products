@@ -1,0 +1,6 @@
+-ProductTable
+    -ProductSideBar
+    -DetailedProduct
+        -DeleteProduct
+        -EditProduct
+    -AddProduct

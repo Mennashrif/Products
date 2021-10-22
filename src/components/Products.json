@@ -1,0 +1,9 @@
+  
+ [
+    {"src":"/static/media/p1.4050aaed.avif","id" : 1,"price": "$49.99", "name": "NEAUTHY LOTION"},
+    {"src" :"/static/media/p2.bfab488f.avif","id" : 2,"price": "$9.99", "name": "NEAUTHY CREAM"},
+    {"src": "/static/media/p3.438c79f4.avif","id" : 3,"price": "$29.99", "name": "NEAUTHY SERUM"},
+    {"src": "/static/media/p4.cd570c95.avif","id" : 4, "price": "$99.99", "name": "PURE MUSC"},
+    {"src" :"/static/media/p5.c158aaa8.avif","id" : 5,"price": "$399.99",  "name": "GABRIELLE CHANEl"},
+    {"src": "/static/media/p6.1c70b2e1.avif","id" : 6,"price": "$199.99", "name": "MALVE RASIA MALIA"}
+  ]
