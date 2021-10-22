@@ -25,7 +25,7 @@ function DetailedProduct(props) {
                         The page also has accordions for further details."</p> : null}
                     <div className = "flex">
                     <DeleteProduct product={props.product} setProduct={props.setProduct} />
-                    <EditProduct  setModalOpen={props.setModalOpen} product={props.product} setProduct={props.setProduct}/>
+                    <EditProduct  setEditModalOpen={props.setEditModalOpen} product={props.product} setProduct={props.setProduct}/>
                     </div>
             </div>
         </React.Fragment>

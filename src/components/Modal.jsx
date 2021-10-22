@@ -1,7 +1,8 @@
 import React,{useState,useContext} from 'react';
 import  './Modal.css'
 import ProductsContext from './ProductContext';
-function Modal(props) {
+import tmp from '../images/tmp.avif'
+function Modal({setOpenModal}) {
 
    const[productName , setProductName] = useState([])
    const[productPrice , setProductPrice] = useState([])
@@ -13,7 +14,7 @@ function Modal(props) {
           <div className="titleCloseBtn">
             <button
               onClick={() => {
-                props.setOpenModal(false);
+                setOpenModal(false);
               }}
             >
               X
@@ -36,7 +37,7 @@ function Modal(props) {
           <div className="footer">
             <button
               onClick={() => {
-                props.setOpenModal(false);
+                setOpenModal(false);
               }}
               id="cancelBtn"
             >
@@ -44,13 +45,13 @@ function Modal(props) {
             </button>
             <button
             onClick={()=>{
-             const product = {"src" :props.product.src,"id" : ContextProducts.products.at(-1).id+1,"price":productPrice,"name":productName}
+             const product = {"src" :tmp,"id" : ContextProducts.products.at(-1).id+1,"price":productPrice,"name":productName}
              ContextProducts.setProducts(
                
              [...ContextProducts.products,product]
              
              )
-             props.setOpenModal(false);
+             setOpenModal(false);
             }}
 
             >Continue</button>

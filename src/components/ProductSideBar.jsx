@@ -3,7 +3,7 @@ import ProductsContext from './ProductContext';
 function ProductSideBar(props) {
 
     const ContextProducts = useContext(ProductsContext);
-    console.log(ContextProducts.products);
+
     const listItems =ContextProducts.products.map(product =>
         <li onClick={()=>props.setproduct(product)} className="py-2 px-4 hover:bg-red-400"
             key={product.id.toString()}>

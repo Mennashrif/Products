@@ -1,18 +1,14 @@
-import React,{useContext} from 'react';
-import ProductsContext from './ProductContext';
+import React from 'react';
+
 
 function EditProduct(props) {
-  const ContextProducts = useContext(ProductsContext)
+
     return (
         <div>
         <button
-        onClick={() => {
-          props.setModalOpen(true)
-          props.setProduct({ name: null })
-          ContextProducts.setProducts(
-            ContextProducts.products.filter(product=> product.id!==props.product.id)
-        )
-        }}
+        onClick={() => 
+          props.setEditModalOpen(true)
+        }
          className = "changeProductBtn"
       >
         Edit
